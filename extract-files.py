@@ -31,6 +31,11 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    (
+        'vendor/lib64/camera/components/com.vidhance.node.ica.so',
+        'vendor/lib64/camera/components/com.vidhance.node.processing.so',
+    ): blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
     'vendor/etc/libnfc-nci.conf': blob_fixup()
         .regex_replace('NFC_DEBUG_ENABLED=0x01', 'NFC_DEBUG_ENABLED=0'),
     'vendor/etc/libnfc-nxp.conf': blob_fixup()

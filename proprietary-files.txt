@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from milanf_g T2SDS33M.75-38-1-3-26
+# All unpinned blobs are extracted from milanf_g T2SDS33.75-38-1-3-30
 
 # ACDB Data
 vendor/etc/acdbdata/Bluetooth_cal.acdb

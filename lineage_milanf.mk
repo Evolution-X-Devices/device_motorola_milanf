@@ -23,6 +23,6 @@ PRODUCT_MODEL := moto g stylus 5G (2022)
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="milanf_g-user 13 T2SDS33.75-38-1-3-26 e35d9-fa7d4 release-keys" \
-    BuildFingerprint=motorola/milanf_g/milanf:13/T2SDS33.75-38-1-3-26/e35d9-fa7d4:user/release-keys \
+    BuildDesc="milanf_g-user 13 T2SDS33.75-38-1-3-30 819dd2-ff9246 release-keys" \
+    BuildFingerprint=motorola/milanf_g/milanf:13/T2SDS33.75-38-1-3-30/819dd2-ff9246:user/release-keys \
     DeviceProduct=milanf_g
